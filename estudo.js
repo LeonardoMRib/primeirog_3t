@@ -26,8 +26,8 @@ if(!Number(t) ){
          document.write("Valor no mês " + i  + " = " + m + "<br>");
          c = m;
     }
-    
-    document.write("Montante:" + m);
+    document.getElementById("total").innerHTML = m;
+    //document.write("Montante:" + m);
 }
 function soma () {
     let val1 = document . getElementById ("v1") . value ;
