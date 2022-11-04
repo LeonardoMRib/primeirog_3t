@@ -5,6 +5,7 @@
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 5px 6px rgb(36, 28, 28);
 }
 .calc input {
     background: darkblue;
@@ -19,6 +20,10 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+.calc input:focus {
+    background: black;
+    color: yellow;
+}
 .calc button {
     background: rgb(0, 26, 255);
     color: rgb(255, 254, 254);
@@ -30,4 +35,15 @@
     background: rgb(11, 24, 141);
     color: rgb(255, 254, 254);
     cursor: pointer;
+}
+#spLista {
+    text-align: start;
+    border-style: dashed;
+    border-radius: dotted;
+    border-color: yellow;
+    border-width: 1px;
+    border-radius: 4px;
+    background: whitesmoke;
+    color: rebeccapurple;
+    margin-top: 10px;
 }
