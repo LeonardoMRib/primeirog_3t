@@ -22,7 +22,7 @@
 }
 .calc input:focus {
     background: black;
-    color: yellow;
+    color: rgb(0, 255, 221);
 }
 .calc button {
     background: rgb(0, 26, 255);
@@ -40,10 +40,19 @@
     text-align: start;
     border-style: dashed;
     border-radius: dotted;
-    border-color: yellow;
+    border-color: rgb(0, 247, 255);
     border-width: 1px;
     border-radius: 4px;
     background: whitesmoke;
     color: rebeccapurple;
     margin-top: 10px;
+}
+.calcF {
+    display: none;
+}
+#input-calcFin {
+    display: none;
+}
+#input-calcFin:checked + .calc .calcF {
+    display: block;
 }
